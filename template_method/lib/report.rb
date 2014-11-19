@@ -1,7 +1,8 @@
 
 # Design Patterns in Ruby, Chapter 3. Varying the Algorithm with the Template Method
 
-include 'html_report'
+require 'lib/html_report'
+require 'lib/plain_text_report'
 
 class Report
 
